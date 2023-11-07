@@ -7,14 +7,12 @@ import path from 'path'; // Importa los módulos 'fs' y 'path'
 const signale = new Signale();
 dontenv.config();
 
-const dbPort = process.env.DB_PORT || "3306";
-
 const config = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     database: process.env.DB_DATABASE,
     password: process.env.DB_PASSWORD,
-    port: parseInt(dbPort),
+    port: 3306,
     waitForConnections: true,
     connectionLimit: 10,
 };
