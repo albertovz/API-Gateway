@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Erick Díaz - 201424",
+  "author": "Alberto Vázquez Miranda",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.20",
